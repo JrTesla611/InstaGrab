@@ -25,7 +25,7 @@ import { useVideoInfo } from "@/services/api/queries";
 
 const formSchema = z.object({
   postUrl: z.string().url({
-    message: "Provide a valid Instagram post link",
+    message: "Etibarlı Instagram post linki təqdim edin",
   }),
 });
 
@@ -76,7 +76,7 @@ export function InstagramVideoForm() {
                   <Input
                     disabled={isPending}
                     type="url"
-                    placeholder="Paste your Instagram link here..."
+                    placeholder="Instagram linkinizi bura yerləşdirin..."
                     className="h-12 w-full sm:pr-28"
                     {...field}
                   />
@@ -95,12 +95,12 @@ export function InstagramVideoForm() {
             ) : (
               <Download className="mr-2" />
             )}
-            Download
+            Endir
           </Button>
         </div>
         <p className="text-muted-foreground text-center text-xs">
-          If the download opens a new page, right click the video and then click{" "}
-          Save as video.
+          Yükləmə yeni səhifə açırsa, videoya sağ klikləyin və sonra {""} klikləyin. 
+Video kimi yadda saxlayın.
         </p>
       </form>
     </Form>
@@ -113,7 +113,7 @@ export async function downloadFile(videoUrl: string, filename: string) {
     const response = await fetch(videoUrl);
 
     if (!response.ok) {
-      throw new Error("Failed to fetch the video for download.");
+      throw new Error("Endirmək üçün videonu əldə etmək alınmadı.(üzrlü sayın <3");
     }
 
     const blob = await response.blob();

@@ -8,7 +8,7 @@ import { MediaData } from "./types";
 
 // Function to generate a video filename
 export const getIGVideoFileName = () =>
-  getTimedFilename("ig-downloader", "mp4");
+  getTimedFilename("adtapabilmədim_:)", "mp4");
 
 // Function to process Instagram share URL and resolve it to the reel ID
 

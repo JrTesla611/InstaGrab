@@ -17,8 +17,8 @@ const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-  title: "Instagram Video Downloader",
-  description: "Download Instagram Videos",
+  title: "InstaGrab",
+  description: "Intagram videolarını endirin",
 };
 
 export default function RootLayout({
@@ -53,5 +53,5 @@ export default function RootLayout({
         </ThemeProvider>
       </body>
     </html>
-  );
+  ); 
 }

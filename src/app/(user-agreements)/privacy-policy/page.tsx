@@ -1,41 +1,38 @@
 const PrivacyPolicyPage = () => {
   return (
     <div className="my-4 flex flex-col rounded-lg border p-8">
-      <h1 className="mb-4 text-2xl font-bold">Privacy Policy</h1>
+      <h1 className="mb-4 text-2xl font-bold">Məxfilik Siyasəti</h1>
 
       <section className="text-sm">
-        <h2 className="mb-2 text-xl font-semibold">1. Introduction</h2>
+        <h2 className="mb-2 text-xl font-semibold">1. Giriş</h2>
         <p className="mb-2">
-          <span className="font-semibold">1.1.</span> This Privacy Policy
-          (Policy) informs users that the website
+          <span className="font-semibold">1.1.</span> Bu Məxfilik Siyasəti
+          (Siyasət) istifadəçilərə bildirir ki, 
           <span className="text-gray-900 dark:text-gray-500">
             {" "}
-            (https://instagram-reels-downloader-tau.vercel.app/)
+            (https://instagrab.wuaze.com/)
           </span>{" "}
-          does not collect, store, or process any personal information. By using
-          the Website or Service, you acknowledge that no personal information
-          is being collected or stored.
+          vebsaytı heç bir şəxsi məlumatı toplamır, saxlamır və ya emal etmir. 
+          Vebsaytdan və ya Xidmətdən istifadə etməklə siz şəxsi məlumatların toplanmadığını və saxlanmadığını qəbul edirsiniz.
         </p>
         <p className="mb-2">
-          <span className="font-semibold">1.2.</span> Please note that this
-          Policy is provided in compliance with legal requirements, even though
-          the Website or Service does not collect or store any personal
-          information.
+          <span className="font-semibold">1.2.</span> Qeyd edək ki, bu
+          Siyasət hüquqi tələblərə uyğun olaraq təqdim olunur, baxmayaraq ki,
+          Vebsayt və ya Xidmət heç bir şəxsi məlumatı toplamır və saxlamır.
         </p>
       </section>
 
-      <section className="mb-2 text-sm">
+      {/* <section className="mb-2 text-sm">
         <h2 className="mb-2 text-xl font-semibold">
-          2. Third-Party Advertising and Analytics
+          2. Üçüncü Tərəf Reklam və Analitika
         </h2>
         <p className="mb-2">
-          <span className="font-semibold">2.1.</span> We use third-party
-          advertising services, such as Google AdSense, to serve advertisements
-          on the Website. These third parties may use cookies, web beacons, and
-          other tracking technologies to collect information about your use of
-          the Website and other websites, including your IP address, browser
-          type, internet service provider, referring/exit pages, and date/time
-          stamp. For more information, please visit
+          <span className="font-semibold">2.1.</span> Biz vebsaytda reklam
+          yerləşdirmək üçün Google AdSense kimi üçüncü tərəf reklam xidmətlərindən istifadə edirik. 
+          Bu üçüncü tərəflər kukilərdən, veb mayaklardan və digər izləmə texnologiyalarından istifadə edərək
+          sizin vebsaytdan və digər saytlardan istifadəniz barədə məlumat toplaya bilər, 
+          o cümlədən IP ünvanınız, brauzer növünüz, internet provayderiniz, giriş/çıxış səhifələriniz və tarix/vaxt qeydiyyatı. 
+          Daha ətraflı məlumat üçün
           <a
             target="_blank"
             href="https://www.privacypolicies.com/blog/privacy-policy-google-adsense/"
@@ -44,7 +41,7 @@ const PrivacyPolicyPage = () => {
             {" "}
             privacypolicies.com{" "}
           </a>
-          and
+          və
           <a
             target="_blank"
             href="https://www.termsfeed.com/blog/privacy-policy-google-adsense/"
@@ -53,11 +50,11 @@ const PrivacyPolicyPage = () => {
             {" "}
             termsfeed.com{" "}
           </a>
-          .
+          saytlarını ziyarət edə bilərsiniz.
         </p>
         <p className="mb-2">
-          <span className="font-semibold">2.2.</span> You may opt-out of
-          personalized advertising by visiting
+          <span className="font-semibold">2.2.</span> Siz fərdiləşdirilmiş
+          reklamlardan imtina etmək üçün
           <a
             target="_blank"
             href="https://adssettings.google.com/authenticated"
@@ -66,43 +63,41 @@ const PrivacyPolicyPage = () => {
             {" "}
             Ads Settings{" "}
           </a>
+          səhifəsinə keçid edə bilərsiniz.
         </p>
-      </section>
+      </section> */}
 
       <section className="mb-2 text-sm">
         <h2 className="mb-2 text-xl font-semibold">
-          3. Changes to the Privacy Policy
+          2. Məxfilik Siyasətində Dəyişikliklər
         </h2>
         <p className="mb-2">
-          <span className="font-semibold">3.1.</span> We reserve the right to
-          update, modify, or replace any part of the Policy at any time by
-          posting the updated Policy on the Website. Your continued use of the
-          Website or Service after the effective date of the updated Policy
-          constitutes your acceptance of the new terms.
+          <span className="font-semibold">3.1.</span> Biz istənilən vaxt
+          bu Siyasətin hər hansı bir hissəsini yeniləmək, dəyişdirmək və ya
+          əvəz etmək hüququnu özümüzdə saxlayırıq. Yenilənmiş Siyasət
+          vebsaytda dərc ediləcək. Siyasət dəyişikliyindən sonra vebsaytdan və ya xidmətdən istifadə etməyə davam etməniz
+          yeni şərtləri qəbul etdiyiniz anlamına gəlir.
         </p>
       </section>
 
       <section className="mb-2 text-sm">
-        <h2 className="mb-2 text-xl font-semibold">4. Contact Information</h2>
+        <h2 className="mb-2 text-xl font-semibold">3. Əlaqə Məlumatı</h2>
         <p className="mb-2">
-          <span className="font-semibold">4.1.</span> If you have any questions
-          or concerns about this Policy, please contact the Website owner at{" "}
-          <span className="italic">your-email@example.com</span>.
+          <span className="font-semibold">3.1.</span> Əgər bu Siyasətlə bağlı hər hansı sualınız və ya narahatlığınız varsa, 
+          vebsayt sahibinə aşağıdakı ünvandan müraciət edin:{" "}
+          <span className="italic">cahadabdulla@gmail.com</span>.
         </p>
       </section>
 
       <section className="mb-2 text-sm">
         <h2 className="mb-2 text-xl font-semibold">
-          5. Acceptance of Privacy Policy
+          4. Məxfilik Siyasətinin Qəbul Edilməsi
         </h2>
         <p>
-          By accessing or using the Website or Service, you acknowledge that you
-          have read, understood, and agree to be bound by the terms and
-          conditions of this Policy.
+          Vebsayta və ya Xidmətə daxil olmaqla və ya istifadə etməklə, 
+          bu Siyasətin şərtlərini oxuduğunuzu, başa düşdüyünüzü və qəbul etdiyinizi təsdiqləyirsiniz.
         </p>
       </section>
-
-      
     </div>
   );
 };

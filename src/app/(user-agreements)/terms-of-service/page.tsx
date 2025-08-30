@@ -1,137 +1,100 @@
 const TermsOfServicePage = () => {
   return (
     <div className="my-4 flex flex-col rounded-lg border p-8">
-      <h1 className="mb-4 text-2xl font-bold">Terms of Service</h1>
+      <h1 className="mb-4 text-2xl font-bold">Xidmət Şərtləri</h1>
       
       <section className="mb-2 text-sm">
-        <h2 className="mb-2 text-xl font-semibold">1. Introduction</h2>
+        <h2 className="mb-2 text-xl font-semibold">1. Giriş</h2>
         <p className="mb-2">
-          <span className="font-semibold">1.1.</span> These Terms of Service
-          (ToS) govern your use of the website
+          <span className="font-semibold">1.1.</span> Bu Xidmət Şərtləri (ToS)
+          veb saytın istifadəsini tənzimləyir
           <span className="text-gray-900 dark:text-gray-500">
             {" "}
-            (https://instagram-reels-downloader-tau.vercel.app/)
+            (https://instagrab.wuaze.com/)
           </span>{" "}
-          and its associated services (the "Website" or "Service"). By using the
-          Website or Service, you agree to be bound by the terms and conditions
-          set forth in this ToS.
+          və ona bağlı xidmətləri ("Veb sayt" və ya "Xidmət"). Veb sayt və ya
+          Xidmətdən istifadə edərək, siz bu ToS-də göstərilən şərtlərə riayət etməyi qəbul edirsiniz.
         </p>
         <p className="mb-2">
-          <span className="font-semibold">1.2.</span> Please read this ToS
-          carefully before using the Website or Service. If you do not agree to
-          the terms of this ToS, you must not access or use the Website or
-          Service.
+          <span className="font-semibold">1.2.</span> Xahiş olunur, Veb sayt və ya
+          Xidmətdən istifadə etməzdən əvvəl bu ToS-i diqqətlə oxuyun. Əgər bu ToS-in
+          şərtləri ilə razı deyilsinizsə, Veb sayt və ya Xidmətdən istifadə etməməlisiniz.
         </p>
       </section>
 
       <section className="mb-2 text-sm">
-        <h2 className="mb-2 text-xl font-semibold">2. Changes to the ToS</h2>
+        <h2 className="mb-2 text-xl font-semibold">2. ToS-də Dəyişikliklər</h2>
         <p className="mb-2">
-          <span className="font-semibold">2.1.</span> We reserve the right to
-          update, modify, or replace any part of the ToS at any time by posting
-          the updated ToS on the Website. Your continued use of the Website or
-          Service after the effective date of the updated ToS constitutes your
-          acceptance of the new terms.
+          <span className="font-semibold">2.1.</span> Biz ToS-in istənilən hissəsini
+          istənilən vaxt yeniləmək, dəyişdirmək və ya əvəz etmək hüququnu saxlayırıq,
+          bu yenilənmiş ToS-i Veb saytda yerləşdirərək. Yenilənmiş ToS-in qüvvəyə
+          mindiyi tarixdən sonra Veb sayt və ya Xidmətdən istifadə etməyə davam etməniz
+          yeni şərtləri qəbul etdiyinizi göstərir.
         </p>
       </section>
 
       <section className="mb-2 text-sm">
-        <h2 className="mb-2 text-xl font-semibold">3. Prohibited Uses</h2>
+        <h2 className="mb-2 text-xl font-semibold">3. Qadağan Edilmiş İstifadələr</h2>
         <p className="mb-2">
-          <span className="font-semibold">3.1.</span> You may not use the
-          Website or Service for any illegal activities, including but not
-          limited to:
+          <span className="font-semibold">3.1.</span> Siz Veb sayt və ya Xidmətdən
+          qanunsuz fəaliyyətlər üçün istifadə edə bilməzsiniz, bunlara daxildir amma məhdud deyil:
         </p>
         <ul className="mb-2 list-disc pl-6">
           <li>
-            Distributing or accessing content that infringes on others&apos;
-            intellectual property rights;
+            Başqalarının intellektual mülkiyyət hüquqlarını pozan məzmunu paylaşmaq və ya əldə etmək;
           </li>
           <li>
-            Transmitting or distributing material that promotes violence,
-            discrimination, or illegal activities;
+            Zorakılığı, ayrı-seçkiliyi və ya qanunsuz fəaliyyətləri təşviq edən materialları yaymaq;
           </li>
           <li>
-            Harassing, stalking, or intimidating other users of the Website or
-            Service.
+            Veb sayt və ya Xidmətin digər istifadəçilərini təqib etmək, narahat etmək və ya qorxutmaq.
           </li>
         </ul>
         <p className="mb-2">
-          <span className="font-semibold">3.2.</span> You agree not to engage in
-          any activities that could harm or disable the Website or Service or
-          interfere with other users&apos; use and enjoyment of the Website or
-          Service.
+          <span className="font-semibold">3.2.</span> Siz Veb sayt və ya Xidməti zədələyə biləcək və ya digər istifadəçilərin istifadəsini və əyləncəsini maneə törədə biləcək hər hansı fəaliyyətlə məşğul olmamağa razılaşırsınız.
         </p>
       </section>
 
       <section className="mb-2 text-sm">
-        <h2 className="mb-2 text-xl font-semibold">
-          4. Intellectual Property Rights
-        </h2>
+        <h2 className="mb-2 text-xl font-semibold">4. Əqli Mülkiyyət Hüquqları</h2>
         <p className="mb-2">
-          <span className="font-semibold">4.1.</span> All content, including but
-          not limited to text, images, videos, and software, on the Website is
-          the property of the Website owner or its licensors. You are granted a
-          limited license to access and view the content for your personal,
-          non-commercial use only.
+          <span className="font-semibold">4.1.</span> Veb saytdakı bütün məzmun, o cümlədən mətn, şəkillər, videolar və proqram təminatı, Veb sayt sahibinin və ya lisenziya verənlərin mülkiyyətidir. Sizə şəxsi, qeyri-kommersiya istifadəsi üçün məzmuna giriş və baxmaq üçün məhdud lisenziya verilir.
         </p>
         <p className="mb-2">
-          <span className="font-semibold">4.2.</span> You may not modify, copy,
-          distribute, transmit, display, perform, reproduce, publish, license,
-          create derivative works from, transfer, or sell any content from the
-          Website without the express prior written permission of the Website
-          owner.
+          <span className="font-semibold">4.2.</span> Siz Veb sayt sahibinin yazılı icazəsi olmadan məzmunu dəyişdirə, kopyalaya, paylaşa, göndərə, nümayiş etdirə, icra edə, nəşr edə, lisenziyalaşdıra, törəmə əsərlər yarada, ötürə və ya sata bilməzsiniz.
         </p>
       </section>
 
       <section className="mb-2 text-sm">
-        <h2 className="mb-2 text-xl font-semibold">
-          5. Disclaimers and Limitations of Liability
-        </h2>
+        <h2 className="mb-2 text-xl font-semibold">5. İmtinələr və Məsuliyyət Məhdudiyyətləri</h2>
         <p className="mb-2">
-          <span className="font-semibold">5.1.</span> The Website and Service
-          are provided on an &ldquo;as is&ldquo; and &ldquo;as available&ldquo;
-          basis without any warranties, express or implied, including but not
-          limited to warranties of merchantability, fitness for a particular
-          purpose, and non-infringement.
+          <span className="font-semibold">5.1.</span> Veb sayt və Xidmət "olduğu kimi" və "mövcud olduğu kimi" təqdim edilir, hər hansı bir ifadəli və ya dolayısı ilə təmin edilmiş zəmanətlər olmadan, o cümlədən kommersiya məqsədinə uyğunluq, müəyyən bir məqsədə uyğunluq və pozulmama zəmanətləri.
         </p>
         <p className="mb-2">
-          <span className="font-semibold">5.2.</span> We shall not be liable for
-          any direct, indirect, incidental, special, consequential, or punitive
-          damages arising out of or in connection with your use of the Website
-          or Service, even if we have been advised of the possibility of such
-          damages.
+          <span className="font-semibold">5.2.</span> Veb sayt və Xidmətdən istifadənizdən yaranan hər hansı bir birbaşa, dolayı, təsadüfi, xüsusi, nəticəvi və ya cəzai zərərlərə görə məsuliyyət daşımırıq, hətta belə zərərlərin mümkünlüyü barədə məlumat verilsə belə.
         </p>
       </section>
 
       <section className="mb-2 text-sm">
-        <h2 className="mb-2 text-xl font-semibold">6. Governing Law</h2>
+        <h2 className="mb-2 text-xl font-semibold">6. Tətbiq olunan Hüquq</h2>
         <p className="mb-2">
-          <span className="font-semibold">6.1.</span> These ToS shall be
-          governed by and construed in accordance with the laws of{" "}
-          <span className="italic">Algeria</span>, without regard to its
-          conflict of law provisions.
+          <span className="font-semibold">6.1.</span> Bu ToS Əlcəzair qanunlarına uyğun olaraq tənzimlənir və şərh edilir, qanun münaqişəsi prinsiplərinə baxılmadan.
         </p>
       </section>
 
       <section className="mb-2 text-sm">
-        <h2 className="mb-2 text-xl font-semibold">7. Contact Information</h2>
+        <h2 className="mb-2 text-xl font-semibold">7. Əlaqə Məlumatları</h2>
         <p className="mb-2">
-          <span className="font-semibold">7.1.</span> If you have any questions
-          or concerns about these ToS, please contact the Website owner at{" "}
-          <span className="italic">your-email@example.com</span>.
+          <span className="font-semibold">7.1.</span> Bu ToS haqqında hər hansı sualınız və ya narahatlığınız varsa, Veb sayt sahibi ilə əlaqə saxlayın: <span className="italic">cahadabdulla@gmail.com</span>.
         </p>
       </section>
 
       <section className="mb-2 text-sm">
-        <h2 className="mb-2 text-xl font-semibold">8. Acceptance of ToS</h2>
+        <h2 className="mb-2 text-xl font-semibold">8. ToS-i Qəbul Etmək</h2>
         <p>
-          By accessing or using the Website or Service, you acknowledge that you
-          have read, understood, and agree to be bound by the terms and
-          conditions of this ToS.
+          Veb sayt və ya Xidmətə daxil olaraq və ya istifadə edərək, siz ToS-i oxuduğunuzu, anladığınızı və şərtlərinə riayət etməyi qəbul etdiyinizi təsdiqləyirsiniz.
         </p>
       </section>
-
 
     </div>
   );

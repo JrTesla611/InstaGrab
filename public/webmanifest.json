@@ -1,6 +1,6 @@
 {
-  "name": "Instagram Video Downloader",
-  "short_name": "InstaDownloader",
+  "name": "InstaGrab",
+  "short_name": "InstaGrab",
   "description": "Download Instagram videos easily with our free online video downloader.",
   "start_url": "/",
   "display": "standalone",
@@ -28,11 +28,14 @@
   "keywords": [
     "Instagram video downloader",
     "download IG videos",
-    "Instagram video saver"
+    "Instagram video saver",
+    "Instagram reel yüklə",
+    "Instagram video",
+    "video yüklə"
   ],
-  "author": "riad-azz",
-  "copyright": "© 2023 riad-azz. All rights reserved.",
+  "author": "Jahad Abdulla",
+  "copyright": "© 2025 Jahad Abdulla. All rights reserved.",
   "rating": "General",
-  "apple-mobile-web-app-title": "InstaDownloader",
+  "apple-mobile-web-app-title": "InstaGrab",
   "apple-mobile-web-app-status-bar-style": "black-translucent"
 }
